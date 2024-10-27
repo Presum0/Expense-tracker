@@ -1,0 +1,174 @@
+body {
+    background: linear-gradient(135deg, #f0f4f8 0%, #a1cdff 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.nav a {
+    color:#2563eb;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+/* Main section styles */
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.card {
+    background-color: #e3f5ff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 256px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-header span {
+    background-color: #0063dc;
+    color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input styles */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-color: #2563eb;
+}
+
+button i {
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+/* Flex group styles */
+.flex-group {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    width: 300px;;
+}
+
+.trash-button {
+    background: none;
+    border: none;
+    color: #e3342f;
+    cursor: pointer;
+}
+
+/* Group list styles */
+.group-list {
+    margin-bottom: 16px;
+}
+
+.group-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.group-list li i {
+    margin-right: 8px;
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 16px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Summary card */
+.summary-card {
+    background-image: linear-gradient(135deg, rgb(76, 189, 255) 0%, rgb(0, 86, 123) 100%);
+    color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 256px;
+}
+
+.summary-card h2,
+.summary-card h3 {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+     
+
+.final-button {
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    width: 1    5%;
+    cursor: pointer;
+}
+
+.final-button:hover {
+    background-color: rgb(39, 39, 39);
+}

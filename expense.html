@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Split</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <center><ahref="https://amazon.com"><h1>SPLITPAY</h1></a></center>
+            <nav class="nav">
+                <a href="#">Zayed</a>
+                <a href="#">Logout</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="card">
+                <div class="card-header">
+                    <span>1</span>
+                </div>
+                <input type="text" placeholder="Trip" class="input-field">
+                <input type="date" class="input-field">
+                <button class="button">Name your thing</button>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span>2</span>
+                </div>
+                <div class="space-y">
+                    <div class="flex-group">
+                        <input type="text" placeholder="Enter Name" class="input-field">
+                        <button class="trash-button"><i class="fas fa-trash"></i></button>
+                    </div>
+                    <div class="flex-group">
+                        <input type="text" placeholder="Enter Name" class="input-field">
+                        <button class="trash-button"><i class="fas fa-trash"></i></button>
+                    </div>
+                    <div class="flex-group">
+                        <input type="text" placeholder="Enter Name" class="input-field">
+                        <button class="trash-button"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+                <button class="button"><i class="fas fa-plus"></i></button>
+                <br>
+                <br>
+                <button class="button">Make your group</button>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span>3</span>
+                </div>
+                <input type="number" placeholder="1000" class="input-field">
+                <div class="section">
+                    <p>By whom</p>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="byWhom">
+                            <span>Zayed</span>
+                        </label>
+                        <label>   
+                                </label>
+                            </label>
+                        </label>
+                            <input type="radio" name="byWhom">
+                            <span>Preetham</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="byWhom">
+                            <span>Zayn</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="section">
+                    <p>To whom</p>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox">
+                            <span>Zayed</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>Preetam</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>Zayn</span>
+                        </label>
+                    </div>
+                </div>
+                <button class="button"><i class="fas fa-plus"></i></button>
+                <br><br>
+                <button class="button">Add the expenses</button>
+            </div>
+
+            <div class="summary-card">
+                <h2>Trip</h2>
+                 <p><i class="fas fa-calendar-alt"></i> ??</p>
+                <h3>Your Group</h3>
+                <ul class="group-list">
+                    <li><i class="fas fa-user"></i><span>Zayed</span></li>
+                    <li><i class="fas fa-user"></i><span>Preetam</span></li>
+                    <li><i class="fas fa-user"></i><span>Zayn</span></li>
+                </ul>
+                <p>Almost there! one more to go</p>
+                <button class="button">Add your expenses</button>
+            </div>
+        </main>
+        <span class="footer">
+            <button class="final-button">Finally, SPLIT</button>
+        </span>
+    </div>
+</body>
+</html>
