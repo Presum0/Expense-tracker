@@ -10,11 +10,15 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('backround-6.jpg') no-repeat;
+    background: url('Animation-10.gif') no-repeat;
     background-size: cover;
     background-position: center;
 
 }
+/*.wrapper:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}*/
 .wrapper{
     width: 420px;
     background: rgb(0, 83, 0) ;
@@ -24,7 +28,6 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     background: transparent;
     border: 2px solid rgb(255, 255, 255, 0.2);
-
 }
 
 .wrapper h1{
@@ -93,7 +96,12 @@ body{
     color: #333;
 
 }
-
+.wrapper .btn:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    box-shadow: 2px rgb(0, 0, 0);
+}
 .wrapper .register-link{
     font-size: 14.5px;
     text-align: center;
