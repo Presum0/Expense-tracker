@@ -46,6 +46,11 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 256px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-header {
@@ -165,10 +170,11 @@ button:hover {
     color: white;
     padding: 8px 10px;
     border-radius: 8px;
-    width: 1    5%;
+    width: 25%;
     cursor: pointer;
 }
 
 .final-button:hover {
     background-color: rgb(39, 39, 39);
 }
+
